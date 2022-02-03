@@ -1,0 +1,55 @@
+.block-1 {
+  background-color: $bg-bcolor;
+  padding: $block-padding;
+
+ 
+
+  .mycarousel {
+    margin-bottom: -210px;
+  }
+  .carousel-indicators.my-slider {
+    position: relative;
+
+    button {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 1px solid grey;
+      margin-top: 15px;
+    }
+  }
+
+  .b1-wrapper {
+    @extend %flex;
+    flex-direction: column;
+
+    .b1-h {
+      color: $w-color;
+      font-weight: bolder;
+      margin-bottom: 10px;
+    }
+
+    .b1-text {
+      color: $w-color;
+      margin-bottom: 30px;
+    }
+
+    form {
+      margin-bottom: 60px;
+      .b1-form {
+        background-color: $w-color;
+      }
+
+      .b1-form-b {
+        background-color: $hover-color;
+        color: $w-color !important;
+        border-color: $hover-color;
+      }
+
+      .b1-form-b:hover {
+        background-color: $w-color;
+        color: $hover-color !important;
+      }
+    }
+  }
+}

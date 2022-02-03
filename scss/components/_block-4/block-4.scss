@@ -1,0 +1,52 @@
+.block-4 {
+  background-color: #e7edf3;
+  padding: $block-padding;
+
+  .b4-text {
+    h1 {
+      color: $db-color;
+    }
+    p {
+      color: #89939c;
+      margin-bottom: 40px;
+    }
+  }
+
+  .row .card {
+    
+    .card-body {
+      margin: 40px 60px;
+      padding: 0;
+      color: #89939c;
+      h5 {
+        margin-bottom: 25px;
+      }
+      .h4-price {
+        font-size: 25px;
+        font-weight: bolder;
+        color: $hover-color;
+      }
+
+      .b4-margin {
+        margin-bottom: 25px;
+      }
+
+      .card-text {
+        border-top: 1px solid grey;
+      }
+
+      a {
+        background-color: $hover-color;
+        border-color: $hover-color;
+        color: $w-color;
+      }
+    }
+  }
+  .row .b4-card:hover {
+    background-color: $bg-bcolor;
+    transform: scale(1.1);
+    .card-body {
+        color: $w-color;
+    }
+  }
+}

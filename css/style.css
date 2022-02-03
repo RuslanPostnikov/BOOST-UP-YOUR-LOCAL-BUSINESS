@@ -1,0 +1,217 @@
+.block-6 .b6-text, .block-2 .b2-wrapper .row .b2-1, .block-2 .b2-wrapper, .block-1 .b1-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav.header-menu {
+  background-color: white !important;
+}
+header nav.header-menu .container .header-nav {
+  justify-content: flex-end;
+}
+header nav.header-menu .container .header-nav div.navbar-nav a:hover {
+  background-color: #ffbb42;
+  color: white !important;
+}
+
+.block-1 {
+  background-color: #709dca;
+  padding: 110px 0;
+}
+.block-1 .mycarousel {
+  margin-bottom: -210px;
+}
+.block-1 .carousel-indicators.my-slider {
+  position: relative;
+}
+.block-1 .carousel-indicators.my-slider button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-top: 15px;
+}
+.block-1 .b1-wrapper {
+  flex-direction: column;
+}
+.block-1 .b1-wrapper .b1-h {
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.block-1 .b1-wrapper .b1-text {
+  color: white;
+  margin-bottom: 30px;
+}
+.block-1 .b1-wrapper form {
+  margin-bottom: 60px;
+}
+.block-1 .b1-wrapper form .b1-form {
+  background-color: white;
+}
+.block-1 .b1-wrapper form .b1-form-b {
+  background-color: #ffbb42;
+  color: white !important;
+  border-color: #ffbb42;
+}
+.block-1 .b1-wrapper form .b1-form-b:hover {
+  background-color: white;
+  color: #ffbb42 !important;
+}
+
+.block-2 {
+  padding: 110px 0;
+  background-color: white;
+}
+.block-2 .b2-wrapper {
+  flex-direction: column;
+  padding: 125px 0;
+}
+.block-2 .b2-wrapper .b2-header {
+  color: #394b50;
+  font-weight: bolder;
+}
+.block-2 .b2-wrapper .b2-text {
+  margin-bottom: 75px;
+}
+.block-2 .b2-wrapper .row .b2-1 {
+  align-items: flex-start;
+  margin-bottom: 65px;
+}
+.block-2 .b2-wrapper .row .b2-1 .b2-img {
+  padding-right: 30px;
+}
+.block-2 .b2-wrapper .row .b2-1 .b2-img img {
+  width: 46px;
+}
+
+.b3-wrapper .b3-lb {
+  background-image: url(../images/about-us.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.b3-wrapper .b3-rb {
+  background-color: #ffbb42;
+  color: white;
+  padding: 120px 70px;
+}
+.b3-wrapper .b3-rb h1 {
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+.b3-wrapper .b3-rb p {
+  margin-bottom: 25px;
+}
+.b3-wrapper .b3-rb a {
+  background-color: #ffbb42;
+  border: 1px solid #e7ad48;
+}
+
+.block-4 {
+  background-color: #e7edf3;
+  padding: 110px 0;
+}
+.block-4 .b4-text h1 {
+  color: #394b50;
+}
+.block-4 .b4-text p {
+  color: #89939c;
+  margin-bottom: 40px;
+}
+.block-4 .row .card .card-body {
+  margin: 40px 60px;
+  padding: 0;
+  color: #89939c;
+}
+.block-4 .row .card .card-body h5 {
+  margin-bottom: 25px;
+}
+.block-4 .row .card .card-body .h4-price {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #ffbb42;
+}
+.block-4 .row .card .card-body .b4-margin {
+  margin-bottom: 25px;
+}
+.block-4 .row .card .card-body .card-text {
+  border-top: 1px solid grey;
+}
+.block-4 .row .card .card-body a {
+  background-color: #ffbb42;
+  border-color: #ffbb42;
+  color: white;
+}
+.block-4 .row .b4-card:hover {
+  background-color: #709dca;
+  transform: scale(1.1);
+}
+.block-4 .row .b4-card:hover .card-body {
+  color: white;
+}
+
+.block-5 {
+  padding: 110px 0;
+}
+.block-5 .b5-text {
+  margin-bottom: 70px;
+}
+.block-5 .row {
+  margin-bottom: 70px;
+}
+.block-5 .row .steps {
+  margin-bottom: 15px;
+}
+.block-5 .row .steps img {
+  margin-bottom: 70px;
+}
+.block-5 a {
+  background-color: #ffbb42;
+  border: 1px solid #ffbb42;
+  color: white;
+}
+
+.block-6 {
+  background-color: #ffbb42;
+  padding: 110px 0;
+}
+.block-6 .b6-text {
+  color: white;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.block-6 .h-clients-wrapper {
+  background-color: white;
+}
+.block-6 .h-clients-wrapper .h-clients {
+  padding: 35px 10px;
+}
+.block-6 .h-clients-wrapper .h-clients img {
+  margin-right: 10px;
+}
+
+.block-7 {
+  padding: 110px 0;
+}
+.block-7 .b7-text {
+  margin-bottom: 40px;
+  color: #394b50;
+}
+.block-7 form {
+  margin-bottom: 40px;
+}
+.block-7 form .b1-form-b {
+  background-color: #ffbb42;
+  color: white !important;
+  border-color: #ffbb42;
+}
+.block-7 form .b1-form-b:hover {
+  background-color: white;
+  color: #ffbb42 !important;
+}
+.block-7 .b7-adress-logo {
+  margin-top: -510px;
+}
+
+/*# sourceMappingURL=style.css.map */

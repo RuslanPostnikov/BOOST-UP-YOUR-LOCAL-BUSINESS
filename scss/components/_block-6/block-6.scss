@@ -1,0 +1,23 @@
+.block-6 {
+  background-color: $hover-color;
+  padding: $block-padding;
+  .b6-text {
+    color: $w-color;
+    @extend %flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .h-clients-wrapper {
+    background-color: $w-color;
+    
+    .h-clients {
+      padding: 35px 10px;
+      img {
+          margin-right: 10px;
+      }
+    }
+  }
+
+
+}

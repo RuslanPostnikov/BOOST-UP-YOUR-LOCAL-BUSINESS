@@ -1,0 +1,24 @@
+.b3-wrapper {
+  .b3-lb {
+    background-image: url(../images/about-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .b3-rb {
+      background-color: $hover-color;
+      color: $w-color;
+      padding: 120px 70px;
+      h1 {
+          font-weight: bolder;
+          margin-bottom: 25px;
+      }
+      p {
+        margin-bottom: 25px;
+      }
+      a {
+          background-color: $hover-color;
+          border: 1px solid #e7ad48;
+      }
+  }
+}

@@ -1,0 +1,25 @@
+.block-7 {
+  padding: $block-padding;
+
+  .b7-text {
+    margin-bottom: 40px;
+    color: $db-color;
+  }
+  form {
+    margin-bottom: 40px;
+    .b1-form-b {
+      background-color: $hover-color;
+      color: $w-color !important;
+      border-color: $hover-color;
+    }
+
+    .b1-form-b:hover {
+      background-color: $w-color;
+      color: $hover-color !important;
+    }
+  }
+
+  .b7-adress-logo {
+    margin-top: -510px;
+  }
+}

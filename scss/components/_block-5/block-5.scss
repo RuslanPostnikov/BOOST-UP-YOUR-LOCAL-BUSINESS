@@ -1,0 +1,20 @@
+.block-5 {
+  padding: $block-padding;
+  .b5-text {
+    margin-bottom: 70px;
+  }
+  .row {
+    margin-bottom: 70px;
+    .steps {
+      margin-bottom: 15px;
+      img {
+        margin-bottom: 70px;
+      }
+    }
+  }
+  a {
+    background-color: $hover-color;
+    border: 1px solid $hover-color;;
+    color: $w-color;
+  }
+}

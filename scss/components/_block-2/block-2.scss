@@ -1,0 +1,32 @@
+.block-2 {
+  padding: $block-padding;
+  background-color: $w-color;
+  .b2-wrapper {
+    @extend %flex;
+    flex-direction: column;
+    padding: 125px 0;
+    .b2-header {
+      color: $db-color;
+      font-weight: bolder;
+    }
+    .b2-text {
+      margin-bottom: 75px;
+    }
+
+    .row {
+      .b2-1 {
+        @extend %flex;
+        align-items: flex-start;
+        margin-bottom: 65px;
+        .b2-img {
+          padding-right: 30px;
+          
+          img {
+            width: 46px;
+          }
+          
+        }
+      }  
+    }
+  }
+}
